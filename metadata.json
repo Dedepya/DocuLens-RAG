@@ -1,0 +1,8 @@
+{
+  "name": "DocuLens",
+  "description": "Intelligent document analysis and insight extraction tool powered by OpenAI. Upload documents to extract structured data, summaries, and chat with your content.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
