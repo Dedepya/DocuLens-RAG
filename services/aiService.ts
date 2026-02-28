@@ -6,7 +6,7 @@ const MODEL = "gpt-4o";
 function getApiKey(): string {
   const key = import.meta.env.VITE_OPENAI_API_KEY;
   if (!key) {
-    throw new Error("OpenAI API key not found. Please set VITE_OPENAI_API_KEY in your .env file.");
+    throw new Error("OpenAI API key not found. Please set VITE_OPENAI_API_KEY as an environment variable or GitHub Secret.");
   }
   return key;
 }
