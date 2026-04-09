@@ -23,7 +23,7 @@ DocuLens is an intelligent document analysis tool powered by Google's Gemini 3 F
 
 - Node.js (v18 or higher)
 - npm or yarn
-- A Google Gemini API Key
+- A API Key
 
 ### Installation
 
@@ -40,9 +40,9 @@ DocuLens is an intelligent document analysis tool powered by Google's Gemini 3 F
 
 3.  Set up environment variables:
     - Create a `.env` file in the root directory.
-    - Add your Gemini API key:
+    - Add your  API key:
     ```env
-    VITE_GEMINI_API_KEY=your_api_key_here
+    VITE_API_KEY=your_api_key_here
     ```
 
 4.  Start the development server:
